@@ -62,7 +62,7 @@ const View = () => {
   return (
     <div>
       <Navbar />
-      <div className="flex flex-col pl-8">
+      <div className="flex flex-col min-h-screen p-4 md:pl-6">
         <div
           className="bg-white bg-opacity-30 
                       backdrop-filter backdrop-blur-md 
