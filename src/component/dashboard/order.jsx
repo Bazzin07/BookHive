@@ -32,7 +32,7 @@ const Orders = () => {
     }
 
     return (
-        <div className="min-h-screen">
+        <div className="min-h-screen md:pl-6">
             <Navbar />
             <div className="container mx-auto px-4">
                 <h1 className="text-4xl font-semibold text-white mb-6 text-center sm:text-left">
