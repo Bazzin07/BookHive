@@ -52,7 +52,7 @@ const View = () => {
     }
     try {
       const result = await firebase.fetchOrders(params.bookId, images, parseInt(qty));
-      alert('Order placed successfully successfully!');
+      alert('Order placed successfully!');
       console.log("Order placed successfully:", result);
     } catch (error) {
       console.error("Error placing order:", error.message);
