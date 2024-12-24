@@ -34,7 +34,7 @@ const Listing = () => {
 
       try {
         await firebase.handleNewListing(name, ibnNum, price, description, storedImages); // data being sent to firebase
-        alert('Listing created successfully!');
+        alert('Book Listed successfully!');
         window.location.reload();
       } catch (error) {
         console.error('Error creating listing:', error);
